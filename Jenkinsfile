@@ -1,5 +1,4 @@
-(withSonarQubeEnv example)
---------------------------
+
 node{
   stage ('Build') {
 	cleanWs()
@@ -16,8 +15,7 @@ node{
 }
 
 	
-(waiting for quality gate)
---------------------------
+
 node{
   stage ('Build') {
 	cleanWs()
